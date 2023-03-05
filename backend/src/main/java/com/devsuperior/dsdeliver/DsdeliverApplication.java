@@ -1,13 +1,13 @@
-package com.dandaradelive.dandaradelive;
+package com.devsuperior.dsdeliver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DandaradeliveApplication {
+public class DsdeliverApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DandaradeliveApplication.class, args);
+		SpringApplication.run(DsdeliverApplication.class, args);
 	}
 
 }
