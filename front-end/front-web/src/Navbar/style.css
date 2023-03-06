@@ -1,17 +1,17 @@
-.main-navbar {
-  background-color: #e99ee3;
-  height: 70px;
-  padding-left: 45px;
-  display: flex;
-  align-items: center;
+.main-navbar{
+    height: 70px;
+    padding-left: 45px;
+    background-color: #ee8dde;
+    display: flex;
+    align-items: center;
+    
 
 }
-
-.logo-text {
-  color: #0e0d0d;
-  font-size: 24px;
-  line-height: 33px;
-  letter-spacing: -0.015em;
-  margin-left: 15px;
-    
+.logo-text{
+    font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+letter-spacing: -0.015em;
+color: #FFFFFF;
+margin-left: 15px;
 }

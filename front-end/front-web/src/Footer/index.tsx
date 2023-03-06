@@ -1,24 +1,26 @@
 import './style.css';
-import { ReactComponent as Github } from './github.svg';
-import { ReactComponent as Linkedin } from './linkedin.svg';
-
-
-
+import {ReactComponent as FacebookIcon}from './facebook.svg';
+import {ReactComponent as GitHubIcon}from './github.svg';
+import {ReactComponent as LinkedinIcon}from './linkedin.svg';
 
 
 function Footer() {
     return (
         <footer className="main-footer">
-            App desenvolvido  pelo Desenvolvedor Bruno Perez.
-            <div className="footer-icons" >                
-                <a href="https://www.linkedin.com/in/bruno-perez-962309190/" target="_black">
-                    <Linkedin />
+            App desenvolvido pelo desenvolvedor Bruno perez
+            <div className="footer-icons">
+                <a href="https://www.facebook.com/brunoluizperez" target="_new">
+                    <FacebookIcon />
                 </a>
-                <a href="https://github.com/Bluizpro" target="_black">
-                    <Github />
+                <a href="https://www.linkedin.com/in/bruno-perez-962309190/" target="_new">
+                    <LinkedinIcon />
                 </a>
-            </div>    
+                <a href="https://github.com/Bluizpro" target="_new">
+                     <GitHubIcon />
+                </a>
+            </div>
         </footer>
     )
 }
+
 export default Footer;
